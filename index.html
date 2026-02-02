@@ -1,0 +1,51 @@
+!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Valentine 💖</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff758c, #ff7eb3);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      padding-top: 100px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 22px;
+    }
+    button {
+      padding: 12px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 25px;
+      background: white;
+      color: #ff4f81;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background: #ffe6ec;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💘 Happy Valentine’s Day 💘</h1>
+  <p>You are special, loved, and truly amazing ❤️</p>
+
+  <button onclick="showLove()">Click for Surprise 💌</button>
+
+  <p id="msg"></p>
+
+  <script>
+    function showLove() {
+      document.getElementById("msg").innerHTML =
+        "🌹 Someone is smiling right now because of you 🌹";
+    }
+  </script>
+
+</body>
+</html>
